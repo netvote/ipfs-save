@@ -1,0 +1,46 @@
+{
+    "type": "basic",
+    "ballotTitle": "2020 Election",
+    "ballotLocation": "NYC",
+    "ballotDate": "",
+    "ballotImage": "",
+    "featuredImage": "https://netvote.io/wp-content/uploads/2018/03/roswell-ga.jpg",
+    "ballotInformation": "Some information",
+    "ballotGroups": [{
+        "groupTitle": "State Election",
+        "ballotSections": [{
+            "sectionTitle": "Governor",
+            "sectionTitleNote": "Choose one",
+            "ballotItems": [{
+                "itemTitle": "John Smith",
+                "itemDescription": "Democratic Party"
+            }, {
+                "itemTitle": "Sally Gutierrez",
+                "itemDescription": "Republican Party (incumbent)"
+            }, {
+                "itemTitle": "Tyrone Williams",
+                "itemDescription": "Independent"
+            }]
+        },{
+            "sectionTitle": "Proposition 33",
+            "sectionTitleNote": "Do you support Proposition 33?",
+            "ballotItems": [{
+                "itemTitle": "Yes"
+            }, {
+                "itemTitle": "No"
+            }]
+        }]
+    },{
+        "groupTitle": "County Election",
+        "ballotSections": [{
+            "sectionTitle": "Tax Commissioner",
+            "sectionTitleNote": "Choose one",
+            "ballotItems": [{
+                "itemTitle": "Doug Hall",
+                "itemDescription": "(incumbent)"
+            }, {
+                "itemTitle": "Emily Washington"
+            }]
+        }]
+    }]
+}
